@@ -1,0 +1,77 @@
+
+<h2>She is a beautiful {{itamName}}</h2>
+<!-- <div>
+    <app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search>
+    <app-filter [all]="getTotalCourses()"
+                [free]="getFreeCourses()"
+                [premium]="getPremiumCourses()"
+                [subscribed]="getSubscribedCourses()">
+            
+    </app-filter>
+</div>
+<div class="navbar">
+    <div class="site-name">
+        <h2>{{eShopping}}</h2>
+
+    </div>
+    <div [hidden]="displyNotification" style="height:40px;background-color: burlywood;">
+        <p style="float: left;">This website uses cookies to provide better exp</p>
+        <div style="float: right;"><button class="btn" (click)="closeNotification()">X</button></div>
+    </div>
+</div>
+
+
+<button  style="margin: 10px;">NavbarButton</button>
+<div *ngFor="let p of products;let i=index">
+    <p>{{i}}</p>
+    <div class="productContainer" [ngStyle]="{backgroundColor: p.available === 'available' ? '#D5F5E3': '#FADBD8'}" *ngIf="searchText === '' || p.name.toLowerCase().includes(searchText) ">
+        <div class="imageCont"><img [src]="p.image" alt="" style="max-height:100px; max-width:100px;margin:10px"></div>
+
+        <div>
+            <div class="nameCont">
+               <h4>{{ p.name }}</h4>
+            </div>
+            <div class="detailCont">
+                <div class="details" [ngStyle]="{color: p.available ==='available' ? 'Green': 'Red'}">{{ p.available }}</div>
+                <div class="details"><b>Price:</b>${{ p.price }}</div>
+                <div class="details"><b>Color:</b>{{ p.color }}</div>
+            </div>
+        </div>
+        <div class="options">
+            <button class="btn">Show Details</button>
+                <h1>This is pop up when click on bye now</h1>
+                 <button class="btn" [ngStyle]="{backgroundColor: p.available === 'available' ? 'Green' : 'red'}" *ngIf="p.available === 'available'; else notifyMe" >Bye Now</button>
+ 
+            <ng-template #notifyMe>
+                <button class="btn" style="background-color: red;">Notify Me</button>
+            </ng-template>
+        </div>
+
+    </div>
+
+</div>
+
+<div>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Roll No:</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Vaishnavi</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Devika</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>vaibhavi</td>
+            <td>52</td>
+        </tr>
+    </tbody>
+</div>
+
+ -->

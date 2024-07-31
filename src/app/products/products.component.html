@@ -1,0 +1,32 @@
+
+
+<div class="flex" *ngIf="destroy">
+    <!-- <h3>Samsumg</h3>   Replace this content with ng-content-->
+    <ng-content select=".phones" setBackGround></ng-content>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <!-- <button style="background-color: green;color:black">Save</button>   I want this button like Button:samsung-->
+    <ng-content select=".button"></ng-content>
+
+</div>
+<button (click)="onDestroy()">Destroy</button>
+<!--
+    Do not write repeatadly
+    for this we have to use ng-content which replace the html content
+
+    <div class="flex">
+    <h4>We are best friends</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button style="background-color: green;color:black">Save</button>
+</div>
+<div class="flex">
+    <h4>We are best friends</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button style="background-color: green;color:black">Save</button>
+</div>
+
+<div class="flex">
+    <h4>We are best friends</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button style="background-color: green;color:black">Save</button>
+</div> -->
+

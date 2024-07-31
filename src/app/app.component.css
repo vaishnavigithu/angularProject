@@ -1,0 +1,66 @@
+/* button{
+    color:pink;
+    background-color: aqua;
+} */
+
+/* button{
+    background-color: orange;
+    padding:5px;
+} */
+.container{
+    /* margin:10px;
+    border:2px solid gray;
+    background-color: azure;
+    margin-top:20px; */
+    width: 720px;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background-color: #f4f4f4;;
+    display: flex;
+}
+.divCss{
+   height:100px;
+   width:100px;
+   padding:5px;
+   margin:5px;
+}
+.NoticeHeading{
+    margin-bottom: 20px;
+}
+.userDiv{
+   display: flex;
+   margin: 5px 0;
+}
+.userName{
+  width:80%;
+  padding:10px 30px;
+  background-color: bisque;
+}
+.userStatus{
+   width:20%;
+   padding:10px 30px;
+   background-color: cadetblue;
+}
+/* button{
+    color:red;
+} */
+.toggle-button {
+    padding: 10px 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: green;
+    color: white;
+  }
+  
+  .inactive {
+    background-color: red;
+    color: white;
+  }
+  divColor{
+    background-color: aqua;
+  }

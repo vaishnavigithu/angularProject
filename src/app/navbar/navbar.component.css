@@ -1,0 +1,49 @@
+.backgroundColor{
+    /* background-color: yellow;
+    height:40px; */
+}
+.site-name{
+    background-color: aquamarine;
+    height:40px;
+}
+
+.colorBlack{
+    color:black;
+    padding: 12px;
+}
+.marginTop{
+    margin-top: 10px;
+}
+.productContainer{
+    display: flex;
+    margin: 15px 0px;
+    padding:5px 5px;
+    border-radius: 5px;
+}
+.productContainer{
+    background-color:rgb(239, 221, 119);
+}
+.imageCont{
+    background-color: #fff;
+    height:120px;
+    width: 120px;
+    padding:10px 0px;
+    text-align: center;
+}
+.detailCont{
+    display: flex;
+    margin:0px 20px;
+}
+.nameCont{
+    margin: 0px 20px;
+}
+.options{
+    width: 220px;
+    margin-left: 80px;
+}
+.btn{
+    border-radius: none;
+    margin: 0px 5px;
+    padding: 2x 10px;
+    font-size: 12px;
+}

@@ -1,0 +1,201 @@
+<a routerLink="/navbar"></a> -->
+<!-- To show the navbar by default throught the website you can use <app-navbar></app-navbar> -->
+<!-- <button>AppButton</button> -->
+<!-- <app-navbar></app-navbar> -->
+<!-- <app-javascript></app-javascript>
+<app-angular></app-angular> -->
+
+<!-- <div>
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="col-lg-4">
+        <label>Name</label>
+        <input type="text" oninput="this.value=this.value.replace(/[^a-zA-Z0-9]/g,'')">
+      </div>
+      <div class="col-lg-4">
+        <label>phone No</label>
+        <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+      </div>
+      <div class="col-lg-4">
+        <label>pan card</label>
+        <input type="text" oninput="this.value=this.value.replace(/[^a-zA-Z0-9]/g,'')">
+      </div>
+      <div>
+        <label>DOB:</label>
+        <input type="text">
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- <div class="container">
+
+  <div>
+    <h1>Front end</h1>
+    <label>DOB:</label>
+    <input type="date">
+  </div>
+  <div>
+    <input type="text" #myName (keyup)="0">
+    <p>{{ myName.value }}</p>
+    (ngModelChange)="onchange()"
+    <p *ngIf="myName !='' ">My Name is : {{ myName }}</p>
+
+    <h3>All users</h3>
+    <app-all-users-details></app-all-users-details>
+  </div>
+
+</div> -->
+<!-- <div class="container">
+  <app-add-user></app-add-user>
+  <div class="userDiv"  *ngFor="let user of users">
+    <div class="userName">{{user.name}}</div>
+    <div class="userStatus">{{user.status}}</div>
+
+  </div>
+
+</div> -->
+
+<!-- <h1 setBackground>Vaishnavi is learning Angular</h1>
+<div class="container" setBackground>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, odio?</p>
+
+</div> -->
+
+<!-- <h1>Vaishnavi is learning Angular</h1>
+<div class="container" appHighLight>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, odio?</p>
+
+</div>
+<div class="addCLass">
+  <h2>Sarita having a great experience </h2>
+
+</div> -->
+
+<!-- <div>
+  <select (change)="filterData($event)">
+    <option value="all">All</option>
+    <option value="man">Mandatory</option>
+    <option value="non">Non Mandatory</option>
+  </select>
+</div>
+<div class="container" appHighLight *ngIf="showDiv">
+  <h2>My name is vaishnavi Pawar</h2>
+  <button (click)="hideDiv()">close</button>
+</div>
+<div class="container" [appStyle]="{backgroundColor : active ? 'Green' : 'Red' , color: 'white', padding: '20px'}">
+  <h2> Set Styles Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam explicabo sequi, praesentium repellat repudiandae?</h2>
+</div>
+
+<div>
+  <div class="NoticeHeading">
+  <button (click)="showNotice()" style="float: left;">Show Notice</button>
+  <h2 style="float: right;" (click)="closeNotice()">X</h2>
+  </div>
+  <div class="container" *ngIf="display; else myVar">
+    <h2>This is Notice</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
+  </div>
+</div>
+
+<ng-template #myVar>
+  <p>Lorem ipsum dolor sit amet.</p>
+</ng-template>
+
+<div [ngSwitch]="ocupation">
+  <p *ngSwitchCase="'Teacher'">Lorem ipsum dolor sit amet Teacher</p>
+  <p *ngSwitchCase="'doctor'">Lorem ipsum dolor sit amet doctor</p>
+  <p *ngSwitchCase="'Engineer'">Lorem ipsum dolor sit amet Engineer</p>
+  <p *ngSwitchCase="'Lawyer'">Lorem ipsum dolor sit amet Lawyer</p>
+  <p *ngSwitchDefault>Lorem ipsum dolor sit amet other than this.</p>
+</div> --> 
+
+
+
+
+<!-- <div class="cards">
+  <app-products>
+    <h3 class="phones">Samsumg</h3>
+    <button class="button" style="background-color: green;color:white">I am samsung</button>
+  </app-products>
+  <app-products>
+    <h3 class="phones">iPhone</h3>
+    <button class="button" style="background-color: green;color:white">I am a iphone</button>
+  </app-products>
+  <app-products>
+    <h3 class="phones">Redmi</h3>
+    <button class="button" style="background-color: green;color:white">I am a redmi</button>
+  </app-products>
+  <app-products>
+    <h3 class="phones">Vivo</h3>
+    <button class="button" style="background-color: green;color:white">I am vivo</button>
+  </app-products>
+</div> -->
+
+<!-- <app-home></app-home> -->
+
+<!-- <app-navbar [itamName]="currentName"></app-navbar>
+<h3 [textContent]="header"></h3>
+<input type="text" [(ngModel)]="data" maxlength="10" oninput="">
+<input type="text" (click)="onInputClick($event)" value="vaishnavi">
+<input (onKeyUp)="gfg($event)"> 
+<input (keyup.enter)="onEnter()" placeholder="Type something">
+<h2>{{text}}</h2>
+<p>My Text is : {{data}}</p>
+<button (click)="clickMe($event)">Click me</button>
+<input #inputRef type="text" placeholder="refExmple" (input)="onInputChange(inputRef.value)">/
+<h4>{{value}}</h4>
+
+<input #inputRef type="text" maxlength="10" 
+    (input)="oninput(inputRef.value)"
+    (keyup)="onKeyUp($event)"
+    (keydown)="onKeyDown($event)"
+    (change)="onchange($event)"
+    (focus)="onFocus()"
+    (blur)="onBlur()"
+>
+<h1 style="color:rgb(12, 114, 248)">{{value}}</h1>
+<div>
+  <input #inputRef type="text" placeholder="type something">
+  <button (click)="focusInput()">Focus Input</button>
+  <button (click)="setInputValue(inputRef.value)">Set Value</button>
+</div>
+
+<div class="searchDiv" [ngClass]="{divColor : inputText != ''}">
+  <input type="text" [(ngModel)]="inputText">
+</div> -->
+
+ <form [formGroup]="reactiveForm" (ngSubmit)="onSubmitForm(reactiveForm)">
+  <div>
+    <label>
+      Name:
+      <input formControlName="name" placeholder="Your name">
+    </label>
+    <div *ngIf="reactiveForm.get('name').invalid && (reactiveForm.get('name').touched || reactiveForm.get('name').dirty)">
+      <p>Please provide a name </p>
+    </div>
+  </div>
+  <div>
+    <label>
+      Email:
+      <input formControlName="email" placeholder="Your email">
+    </label>
+    <div *ngIf="reactiveForm.get('email').invalid && (reactiveForm.get('email').dirty || reactiveForm.get('email').touched)">
+      Please provide a valid email address.
+    </div>
+  </div>
+  <div>
+    <label>
+      Message:
+      <input formControlName="message" placeholder="Your message">
+    </label>
+  </div>
+  <button type="submit">Send</button>
+</form>
